@@ -39,7 +39,7 @@ Upon successful authentication, spring security redirects the user to the defaul
     ```
 
 - Add the below Controller class:
-    ```
+    ```AppController.java
     package com.apps.auth;
     
     import org.springframework.web.bind.annotation.GetMapping;
