@@ -8,4 +8,9 @@ public class AppController {
     public String getHome(){
         return "home page";
     }
+
+    @RequestMapping(value = "/error", method = RequestMethod.GET)
+    public String getError(){
+        return "error page";
+    }
 }
